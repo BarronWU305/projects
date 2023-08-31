@@ -8,8 +8,13 @@
  *   The name is Bob.
 **/
  // TO-DO: You implement the PrintNameList function here.
+ //recognize that the special case is the last one. Loop to penultamit one. 
 void PrintNameList(std::string nameArray[], int nameArraySize) {
-  // Some code
+  // Some code 
+for (int idx=0; idx<nameArraySize-1; idx++) {
+  std::cout << nameArray[idx] << ", "; 
+}
+std::cout << "and " << nameArray[nameArraySize-1] << std::endl; 
 
 }
 
