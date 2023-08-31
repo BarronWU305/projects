@@ -15,7 +15,6 @@ void PrintNameList(std::string nameArray[], int nameArraySize) {
     std::cout << nameArray[idx] << ", "; 
   }
   std::cout << "and " << nameArray[nameArraySize-1] << std::endl; 
- 
 }
 
 /**
